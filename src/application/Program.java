@@ -33,6 +33,13 @@ public class Program {
 			account.withdraw(amount);
 			System.out.println(account);
 		}
+		/*
+		Exemplo de Exception JAVA
+		* IllegalArgumentException
+		* ArrayIndexOutOfBoundsException
+		* InputMismatchException
+		* IOException
+		*/
 		catch (DomainException e) {
 			System.out.println("withdraw error: " + e.getMessage());
 		}
